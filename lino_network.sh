@@ -1,6 +1,6 @@
 #!/bin/bash
-hostname=$1
+robothostname=$1
+localhostname=$2
 
-
-echo "export ROS_HOSTNAME=${hostname}.local" >> ~/.bashrc
-echo "export ROS_MASTER_URI=http://${hostname}.local:11311" >> ~/.bashrc
+echo "export ROS_HOSTNAME=${localhostname}.local" >> ~/.bashrc
+echo "export ROS_MASTER_URI=http://${robothostname}.local:11311" >> ~/.bashrc
