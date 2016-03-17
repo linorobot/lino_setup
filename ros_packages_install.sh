@@ -1,4 +1,6 @@
 sudo apt-get update
+sudo apt-get install ros-indigo-navigation
+
 cd ~/catkin_ws/src
 
 git clone https://github.com/grassjelly/lino_pid.git
