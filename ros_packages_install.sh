@@ -1,5 +1,7 @@
 sudo apt-get update
 sudo apt-get install ros-indigo-navigation
+sudo apt-get install roslint
+sudo apt-get install rosserial
 
 cd ~/catkin_ws/src
 
