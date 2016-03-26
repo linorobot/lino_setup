@@ -1,8 +1,8 @@
 sudo apt-get update
 sudo apt-get install ros-indigo-navigation
-sudo apt-get install roslint
-sudo apt-get install rosserial
-
+sudo apt-get install ros-indigo-roslint
+sudo apt-get install ros-indigo-rosserial
+sudo apt-get install ros-indigi-imu-filter-madgwick
 cd ~/catkin_ws/src
 
 git clone https://github.com/grassjelly/lino_pid.git
