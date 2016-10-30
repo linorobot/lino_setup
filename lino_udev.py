@@ -50,6 +50,7 @@ if __name__ == "__main__":
                 if len(udev_rules) > 0:
                     with io.FileIO("/etc/udev/rules.d/58-lino.rules", "w") as file:
                         file.write(udev_rules)
+                    print "/etc/udev/rules.d/58-lino.rules saved."
                     print "Restart the computer to initialize udev rules."
                     break
                 else:
