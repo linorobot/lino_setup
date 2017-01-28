@@ -10,6 +10,7 @@ cd ~/catkin_ws/src
 
 git clone https://github.com/grassjelly/lino_msgs.git
 git clone https://github.com/grassjelly/lino_pid.git
-git clone https://github.com/grassjelly/linorobot.git
+#git clone https://github.com/grassjelly/linorobot.git
 git clone https://github.com/grassjelly/ros_arduino.git
 
+echo "ROS Packages Installed Successfully"
