@@ -4,7 +4,9 @@ sudo apt-get update
 sudo apt-get install python-gudev
 sudo apt-get install -y avahi-daemon
 sudo apt-get install -y openssh-server
-sudo apt-get install -y arduino-core
+sudo apt-get install -y python-setuptools 
+sudo apt-get install -y python-dev 
+sudo apt-get install -y build-essential
 sudo easy_install pip
 sudo pip install -U platformio
 sudo rm -rf ~/.platformio/
